@@ -16,13 +16,13 @@ function findMovietype() {
   // process
   if (userAge >= 17) {
     // output
-    document.getElementById("result").innerHTML = "You can see a R movie alone"
+    document.getElementById("result").innerHTML = "You can see an R movie alone"
   } else if (userAge >= 13) {
     // output
     document.getElementById("result").innerHTML = "You can see a PG-13 movie alone"
   } else if (userAge >= 5) {
     // output
-    document.getElementById("result").innerHTML = "You can see a G ot PG movie alone"
+    document.getElementById("result").innerHTML = "You can see a G or PG movie alone"
   } else {
     // output
     document.getElementById("result").innerHTML = "You are too young for most movie"
